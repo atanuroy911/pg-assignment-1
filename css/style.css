@@ -1,0 +1,25 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.title-emp{
+    font-family: 'DM Serif Text', serif;
+}
+h1{
+    font-size: 80px;
+    margin: 30% 20%;
+    padding: 2%;
+    border-left: 5px solid rgb(228, 48, 24);
+    
+}
+.section-half{
+    width: 50%;
+}
+.section-third{
+    width: 33%;
+}
+img{
+    width: 50%;
+}
+section{
+    display: flex;
+}
