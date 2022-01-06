@@ -132,6 +132,26 @@ p{
     font-size: 20px;
 }
 
+/* About Section CSS */
+
+/* Section App Demo */
+.section-about{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 10%;
+    
+}
+.section-about img{
+    width: 60%;
+    margin-left: 15%;
+}
+.section-about p{
+    font-size: 25px;
+}
+.section-about a{
+    font-size: 20px;
+}
+
 /* BG Image CSS */
 .shape-1{
     background-image: url(../images/shape-1.png);
