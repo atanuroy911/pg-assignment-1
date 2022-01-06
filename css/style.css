@@ -1,4 +1,7 @@
 /* HTML ELEMENTS CSS */
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
@@ -8,6 +11,35 @@ body{
 p{
     font-size: 20px;
 }
+/* Nav Section */
+.nav-section{
+    background-image: url(../images/wavy-top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.nav-section ul{
+    list-style: none;
+    overflow: hidden;
+    float: right;
+
+}
+  
+.nav-section li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+.nav-section  li a:hover {
+    background-color: lightgreen;
+    border-radius: 10px;
+  }
 /* Section Default CSS */
 .section-half{
     width: 50%;
@@ -54,7 +86,7 @@ p{
 /* Section Develop CSS */
 .section-develop{
     display: flex;
-    margin: 5% 10%;
+    margin: 2% 10%;
     
 }
 .title-develop{
@@ -71,7 +103,7 @@ p{
     font-size: 20px;
 }
 .img-side{
-    width: 50%;
+    width: 60%;
     margin-right: 5px;
 }
 .text-side1{
@@ -92,6 +124,12 @@ p{
 }
 .app-text{
     margin-top: 10%
+}
+.section-app p{
+    font-size: 25px;
+}
+.section-app a{
+    font-size: 20px;
 }
 
 /* BG Image CSS */
